@@ -1,0 +1,28 @@
+Siri Speaker hardware announced
+New iPad Pro announced
+Updated Macbook Pro's
+Updated 12" Macbook
+Updated Macbook Air
+iOS redesign
+New SiriKit domains/extension points
+Group FaceTime calls
+Pro features for iPad in iOS
+APFS new default in macOS
+New Siri features/improvements
+More Continuity features
+New faces in watchOS
+New complications in watchOS
+Updates to TV app on Apple TV
+HomeKit support on macOS
+Photos metadata is synced across devices
+iTunes gets broken up
+"Hey Siri" on macOS
+Improved Touch Bar support
+Drag and Drop on iPad
+Picture in picture on Apple TV
+Peer to peer payments with Apple Pay
+Augmented reality features introduced
+Customizable Control Center
+Customizable default apps on iOS
+New features in Photos
+Next macOS version is 11, not 10.13
