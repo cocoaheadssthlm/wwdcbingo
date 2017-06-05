@@ -1,1 +1,75 @@
-<%= boards.first %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WWDC bingo boards</title>
+    <style type="text/css">
+      html, body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Karla";
+      }
+      .page-container {
+        min-height: 100%;
+        page-break-before: always;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .page {
+        width: 80%;
+        text-align: center;
+      }
+      .board-container {
+        width: 100%;
+        padding-bottom: 100%;
+          position: relative;
+      }
+      .board {
+        position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid #E5E5E5;
+      }
+      .square {
+        width: 20%;
+        height: 20%;
+        border: 1px solid #E5E5E5;
+        margin: -1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .page:first-child {
+        page-break-before: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <% boards.each do |board| %>
+      <div class="page-container">
+        <div class="page">
+          <h1>Cocoaheads WWDC bingo 2017</h1>
+          <div class="board-container">
+            <div class="board">
+              <% board.each_with_index do |square, index| %>
+                <% if index == 12 %>
+                <div class="square">
+                  Free
+                </div>
+                <% end %>
+                <div class="square">
+                  <%= square %>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </body>
+</html>

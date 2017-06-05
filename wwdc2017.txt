@@ -4,11 +4,11 @@ Updated Macbook Pro's
 Updated 12" Macbook
 Updated Macbook Air
 iOS redesign
-New SiriKit domains/extension points
+New SiriKit domains / extension points
 Group FaceTime calls
 Pro features for iPad in iOS
 APFS new default in macOS
-New Siri features/improvements
+New Siri features / improvements
 More Continuity features
 New faces in watchOS
 New complications in watchOS
